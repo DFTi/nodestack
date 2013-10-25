@@ -2,11 +2,7 @@ require 'simplecov'
 SimpleCov.start
 require "nodestack"
 
-require 'pry'
-
-class MongoEnabled < Nodestack::NodeService
-  include Nodestack::MongoService
-
+class MongoEnabled < Nodestack::MongoService
   def database
     'my-database'
   end
