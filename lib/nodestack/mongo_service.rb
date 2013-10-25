@@ -1,7 +1,7 @@
 require 'mongo'
 
 module Nodestack
-  class MongoService < NodeService
+  class MongoService < Service
     include Mongo
 
     def db

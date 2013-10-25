@@ -1,6 +1,6 @@
 require "nodestack/version"
 require "nodestack/stack"
-require "nodestack/node_service"
+require "nodestack/service"
 require "nodestack/mongo_service"
 
 module Nodestack

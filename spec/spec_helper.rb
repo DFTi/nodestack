@@ -8,5 +8,5 @@ class MongoEnabled < Nodestack::MongoService
   end
 end
 
-class MongoDisabled < Nodestack::NodeService
+class MongoDisabled < Nodestack::Service
 end

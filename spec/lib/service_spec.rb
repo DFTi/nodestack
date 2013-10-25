@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe Nodestack::NodeService do
+describe Nodestack::Service do
   
   let(:service) do
-    Nodestack::NodeService.new('test', 12345)
+    Nodestack::Service.new('test', 12345)
   end
 
   let(:command) do

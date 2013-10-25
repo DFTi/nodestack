@@ -1,5 +1,5 @@
 module Nodestack
-  class NodeService
+  class Service
     class DatabaseError < StandardError; end
     attr_reader :port, :pid
 
