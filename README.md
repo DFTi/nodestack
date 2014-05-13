@@ -1,3 +1,5 @@
+deprecated due to unnecessariness :)
+
 # Nodestack
 
 Helps with setting up and manipulating a NodeJS stack from Ruby
